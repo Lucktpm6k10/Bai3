@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    tools:context=".activity.Exercise2Activity">
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_Color1"
+            android:text="@string/btnColor1"
+            android:textColor="@color/rbtnRed"
+            style="@style/Button"/>
+        <Button
+            android:id="@+id/btn_Color2"
+            android:textColor="@color/btnYellow"
+            android:text="@string/btnColor2"
+            style="@style/Button"/>
+        <Button
+            android:id="@+id/btn_Color3"
+            android:layout_weight="1"
+            android:text="@string/btnColor3"
+            android:textColor="@color/rbtnBlue"
+            style="@style/Button"/>
+    </TableRow>
+    <TableRow
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_span="3"
+            android:background="@color/btnYellow"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_Clear"
+            style="@style/Button"
+            android:layout_span="2"
+            android:text="@string/btnClear" />
+    </TableRow>
+
+</TableLayout>

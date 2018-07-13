@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!--- MainActivity -->
+    <string name="btnEx1">Click go to Exercise 1</string>
+    <string name="btnEx2">Click go to Exercise 2</string>
+    <string name="btnEx3">Click go to Exercise 3</string>
+    <!--- Exercise1 Activity -->
+    <string name="rbtnRed">Red</string>
+    <string name="rbtnBlue">Blue</string>
+    <string name="rbtnWhite">White</string>
+    <string name="btnSetColor">Set Color</string>
+    <string name="btnCancel">Cancel</string>
+    <!--- Excercise2 Activity -->
+    <string name="btnColor1">Color 1</string>
+    <string name="btnColor2">Color 2</string>
+    <string name="btnColor3">Color 3</string>
+    <string name="btnClear">Clear</string>
+    <!--- Excersise3 Activity -->
+    <string name="btn1">Button 1</string>
+    <string name="btn2">Button 2</string>
+    <string name="btn3">Button 3</string>
+    <string name="btn4">Button 4</string>
+    <string name="btn5">Button 5</string>
+
+
+</resources>

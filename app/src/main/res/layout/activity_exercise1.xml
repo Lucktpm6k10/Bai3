@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Exercise1Activity">
+    <RadioGroup
+
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/rbtnWhite"
+        android:id="@+id/rgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbtn_Red"
+            style="@style/RadioButton"
+            android:text="@string/rbtnRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            style="@style/RadioButton"
+            android:id="@+id/rbtn_White"
+            android:text="@string/rbtnWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:paddingRight="10dp"
+            style="@style/RadioButton"
+            android:text="@string/rbtnBlue"
+            android:id="@+id/rbtn_Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_SetColor"
+            style="@style/Button"
+            android:text="@string/btnSetColor"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Cancel"
+            android:text="@string/btnCancel"
+            style="@style/Button"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_SetColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/rbtnWhite"/>
+
+</LinearLayout>
